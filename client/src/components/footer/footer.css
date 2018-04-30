@@ -1,0 +1,16 @@
+footer {
+  position: static;
+  bottom: 0;
+  width:100%;
+  padding: 3vmin;
+  background-color: #212121;
+  font-weight: bold;
+  color:#FFEB3B;
+}
+footer a {
+    color:inherit;
+}
+
+footer a:hover, footer a:focus {
+    color:inherit;
+}

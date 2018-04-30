@@ -1,0 +1,35 @@
+.nav-bar{
+  background-color: #4A148C;
+  color: white;
+}
+.nav-bar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0px 40px;
+    padding-right: 0px;
+    overflow: hidden;
+	
+}
+.nav-bar li{
+	float:left;
+	display:inline;
+}
+.nav-bar li:nth-child(2)
+{
+	float:right;
+}
+.nav-bar li .active{
+  background-color: #F44336;
+  font-size: 20px;
+  padding:25px 20px;
+  border: none;
+}
+
+.nav-bar li a {
+    color:inherit;
+}
+
+.nav-bar li a:hover, .nav-bar li a:focus {
+    color:#FFF176;
+    text-decoration: none;
+}
